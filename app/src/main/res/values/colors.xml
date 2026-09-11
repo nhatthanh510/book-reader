@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Green palette taken from the app bar in the assignment mockup. -->
+    <color name="green_700">#2E7D32</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_dark">#FF121212</color>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Book Reader</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_store">Store</string>
+    <string name="nav_shelf">My shelf</string>
+    <string name="nav_categories">Categories</string>
+
+    <!-- Home sections -->
+    <string name="section_newest">Newest books</string>
+    <string name="section_popular">Most read</string>
+    <string name="section_featured">Featured</string>
+    <string name="see_more">See more</string>
+
+    <!-- Common actions -->
+    <string name="action_search">Search</string>
+    <string name="action_back">Back</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_expand">Show more</string>
+    <string name="action_collapse">Show less</string>
+    <string name="search_hint">Search books, authors…</string>
+    <string name="search_prompt">Type a keyword to search for books</string>
+
+    <!-- Book detail -->
+    <string name="detail_author">Author: %1$s</string>
+    <string name="detail_price">Price: %1$s</string>
+    <string name="price_free">Free</string>
+    <string name="action_read">READ</string>
+    <string name="detail_intro">About this book</string>
+    <string name="detail_related">Related books</string>
+    <string name="detail_no_description">No description available for this book.</string>
+    <plurals name="detail_pages">
+        <item quantity="one">%1$d page</item>
+        <item quantity="other">%1$d pages</item>
+    </plurals>
+    <string name="unknown_author">Unknown author</string>
+    <string name="action_favorite_add">Add to favourites</string>
+    <string name="action_favorite_remove">Remove from favourites</string>
+    <string name="action_save_offline">Save to shelf</string>
+    <string name="saved_to_shelf">Saved to your shelf</string>
+    <string name="removed_from_shelf">Removed from your shelf</string>
+
+    <!-- Reader -->
+    <string name="reader_font_increase">Increase text size</string>
+    <string name="reader_font_decrease">Decrease text size</string>
+    <string name="reader_no_preview">This book has no preview available. Here is its description instead.</string>
+
+    <!-- Shelf -->
+    <string name="shelf_title">Your bookshelf</string>
+    <string name="shelf_filter_all">All</string>
+    <string name="shelf_filter_favorite">Favourites</string>
+    <string name="shelf_filter_reading">Reading</string>
+    <string name="shelf_empty">Your shelf is empty</string>
+    <string name="shelf_empty_hint">Tap the heart on a book page to save it here.</string>
+
+    <!-- States -->
+    <string name="error_no_api_key">Google Books API key is not configured. Add GOOGLE_BOOKS_API_KEY to local.properties and rebuild.</string>
+    <string name="error_network">No network connection. Please check and try again.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="empty_result">No books found.</string>
+
+    <!-- Categories -->
+    <string name="category_literature">Literature</string>
+    <string name="category_economics">Business</string>
+    <string name="category_life_skills">Life skills</string>
+    <string name="category_children">Children</string>
+    <string name="category_comics">Comics</string>
+    <string name="category_history">History</string>
+    <string name="category_science">Science</string>
+    <string name="category_psychology">Psychology</string>
+</resources>

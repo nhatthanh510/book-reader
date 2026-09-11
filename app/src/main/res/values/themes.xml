@@ -1,0 +1,7 @@
+<resources>
+    <!-- Compose draws the whole UI, so the platform theme only needs to be action-bar free. -->
+    <style name="Theme.DocSach" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/green_700</item>
+        <item name="android:windowBackground">@color/surface</item>
+    </style>
+</resources>

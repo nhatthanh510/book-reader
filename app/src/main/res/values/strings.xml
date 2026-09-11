@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đọc sách</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_store">Nhà sách</string>
+    <string name="nav_shelf">Tủ sách</string>
+    <string name="nav_categories">Danh mục</string>
+
+    <!-- Home sections -->
+    <string name="section_newest">Sách mới nhất</string>
+    <string name="section_popular">Sách đọc nhiều</string>
+    <string name="section_featured">Sách nổi bật</string>
+    <string name="see_more">Xem thêm</string>
+
+    <!-- Common actions -->
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_back">Quay lại</string>
+    <string name="action_retry">Thử lại</string>
+    <string name="action_expand">Xem thêm</string>
+    <string name="action_collapse">Thu gọn</string>
+    <string name="search_hint">Tìm sách, tác giả…</string>
+    <string name="search_prompt">Nhập từ khóa để tìm sách</string>
+
+    <!-- Book detail -->
+    <string name="detail_author">Tác giả: %1$s</string>
+    <string name="detail_price">Giá bán: %1$s</string>
+    <string name="price_free">0 đ</string>
+    <string name="action_read">ĐỌC</string>
+    <string name="detail_intro">Giới thiệu</string>
+    <string name="detail_related">Sách liên quan</string>
+    <string name="detail_no_description">Chưa có mô tả cho cuốn sách này.</string>
+    <plurals name="detail_pages">
+        <item quantity="other">%1$d trang</item>
+    </plurals>
+    <string name="unknown_author">Không rõ tác giả</string>
+    <string name="action_favorite_add">Thêm vào yêu thích</string>
+    <string name="action_favorite_remove">Bỏ yêu thích</string>
+    <string name="action_save_offline">Lưu vào tủ sách</string>
+    <string name="saved_to_shelf">Đã lưu vào tủ sách</string>
+    <string name="removed_from_shelf">Đã xóa khỏi tủ sách</string>
+
+    <!-- Reader -->
+    <string name="reader_font_increase">Tăng cỡ chữ</string>
+    <string name="reader_font_decrease">Giảm cỡ chữ</string>
+    <string name="reader_no_preview">Cuốn sách này không cho phép đọc thử. Dưới đây là phần giới thiệu.</string>
+
+    <!-- Shelf -->
+    <string name="shelf_title">Tủ sách của bạn</string>
+    <string name="shelf_filter_all">Tất cả</string>
+    <string name="shelf_filter_favorite">Yêu thích</string>
+    <string name="shelf_filter_reading">Đang đọc</string>
+    <string name="shelf_empty">Tủ sách trống</string>
+    <string name="shelf_empty_hint">Nhấn vào biểu tượng trái tim ở trang chi tiết để lưu sách bạn thích.</string>
+
+    <!-- States -->
+    <string name="error_no_api_key">Chưa cấu hình Google Books API key. Thêm GOOGLE_BOOKS_API_KEY vào local.properties rồi build lại.</string>
+    <string name="error_network">Không có kết nối mạng. Vui lòng kiểm tra lại.</string>
+    <string name="error_generic">Đã có lỗi xảy ra. Vui lòng thử lại.</string>
+    <string name="empty_result">Không tìm thấy cuốn sách nào.</string>
+
+    <!-- Categories (Danh mục) -->
+    <string name="category_literature">Văn học</string>
+    <string name="category_economics">Kinh tế</string>
+    <string name="category_life_skills">Kỹ năng sống</string>
+    <string name="category_children">Thiếu nhi</string>
+    <string name="category_comics">Truyện tranh</string>
+    <string name="category_history">Lịch sử</string>
+    <string name="category_science">Khoa học</string>
+    <string name="category_psychology">Tâm lý</string>
+</resources>
