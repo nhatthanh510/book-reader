@@ -17,6 +17,14 @@ val googleBooksApiKey: String = Properties().apply {
         ?.use { load(it) }
 }.getProperty("GOOGLE_BOOKS_API_KEY").orEmpty()
 
+if (googleBooksApiKey.isBlank()) {
+    logger.warn(
+        "\nGOOGLE_BOOKS_API_KEY is not set, so the app will start with no book data." +
+            "\nCopy local.properties.example to local.properties and add your key." +
+            "\nSee README.md for how to create one.\n"
+    )
+}
+
 android {
     namespace = "com.example.docsach"
     compileSdk {

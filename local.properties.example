@@ -1,0 +1,15 @@
+# Copy this file to `local.properties` and fill in your own key:
+#
+#     cp local.properties.example local.properties
+#
+# `local.properties` is git-ignored, so your key never leaves your machine.
+# Android Studio also writes `sdk.dir` into that file on first sync — leave it there.
+
+# Google Books API key. Create one at https://console.cloud.google.com/:
+#   1. Create (or pick) a project
+#   2. APIs & Services -> Library -> enable "Books API"
+#   3. APIs & Services -> Credentials -> Create credentials -> API key
+#
+# Leave it blank and the app still builds and launches; every screen just shows
+# "Chưa cấu hình Google Books API key" instead of books.
+GOOGLE_BOOKS_API_KEY=
